@@ -14,7 +14,7 @@ Aplicación para el alquiler de instrumentos musicales, que además permite la g
 
 
 ## Demo
-![Demo de la Aplicación](recursos/demo.webm)
+![Demo de la Aplicación](recursos/demo.mp4)
 
 ## Instalación y Ejecución
 
