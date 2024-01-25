@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "84525484-c028-4a6f-becb-da09d1a9ce53",
+		"name": "Nota Segura API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "15970804"
+	},
+	"item": [
+		{
+			"name": "Productos",
+			"item": [
+				{
+					"name": "GetAllProducts",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "PostAProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"nombre\": \"PRUEBA\",\r\n  \"descripcion\": \"PROBANDO\",\r\n  \"imagenes\": \"string\",\r\n  \"precio\": 550,\r\n  \"marca\": \"PROOF\",\r\n  \"modelo\": \"A\",\r\n  \"categoria\": {\r\n    \"id\": 1,\r\n    \"nombre\": \"string\",\r\n    \"descripcion\": \"string\",\r\n    \"imagenes\": \"string\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8090/api/products"
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductId",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductName",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "PutProductId",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 1,\r\n        \"nombre\": \"PRUEBA\",\r\n        \"descripcion\": \"PROBANDO UPDATE\",\r\n        \"imagenes\": \"string\",\r\n        \"precio\": 550.0,\r\n        \"marca\": \"PROOF\",\r\n        \"modelo\": \"A\",\r\n        \"categoria\": {\r\n            \"id\": 1,\r\n            \"nombre\": \"PRUEBA categoria\",\r\n            \"descripcion\": \"PROBANDO UPDATE\",\r\n            \"imagenes\": \"string\"\r\n        }\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8090/api/products/1"
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteProductId",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8090/api/products/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categorias",
+			"item": [
+				{
+					"name": "GetAllCategories",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "PostACategory",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateCategory",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"nombre\": \"PRUEBA categoria\",\r\n  \"descripcion\": \"PROBANDO UPDATE\",\r\n  \"imagenes\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8090/api/categories/1"
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCategory",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8090/api/categories/1"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

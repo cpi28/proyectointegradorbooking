@@ -1,0 +1,28 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #623cea;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+  a {
+    text-decoration: none; 
+    color: inherit; /* Hereda el color del texto del elemento padre */
+  }
+  

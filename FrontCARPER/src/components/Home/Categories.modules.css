@@ -1,0 +1,29 @@
+.categorias {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h3 {
+    margin: 15px;
+    
+}
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+    /* Estilos para pantallas grandes aquí */
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (max-width: 767px) {
+    .categorias {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 576px) {
+    /* Estilos para pantallas pequeñas aquí */
+  }
+  

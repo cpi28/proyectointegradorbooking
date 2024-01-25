@@ -1,0 +1,51 @@
+.buscador {
+    background-color: rgb(62, 62, 62);
+    text-align: center;
+    color: #EBEBEB;
+    height: 150px;
+    padding-top: 15px;
+}
+h2 {
+    padding-bottom: 10px;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.buscador button {
+    background-color: #623CEA;
+    color: #EBEBEB;
+}
+.buscador button:hover {
+    background-color: #EBEBEB;
+    color: #623CEA;
+}
+.buscador-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+    /* Estilos para pantallas grandes aquí */
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (max-width: 767px) {
+    
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 430px) {
+    .buscador {
+        background-color: rgb(62, 62, 62);
+        text-align: center;
+        color: #EBEBEB;
+        height: 185px;
+        padding-top: 15px;
+    }
+  }
+  

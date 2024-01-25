@@ -1,0 +1,64 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  /* width: 100%; */
+  position: sticky;
+  /* position: fixed; */
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  height: 100px;
+}
+.logo-lema {
+  display: flex;
+  align-items: center;
+}
+.logo-lema > p {
+  margin: 5px;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+button {
+  padding: 5px;
+  margin: 5px;
+  width: 150px;
+  cursor: pointer;
+  background-color: #EBEBEB;
+  border-color: #623CEA;
+  border-radius: 25px;
+  color: #623CEA;
+}
+button:hover {
+  background-color: #623CEA;
+  color: #EBEBEB;
+}
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+  /* Estilos para pantallas grandes aquí */
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 767px) {
+  button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    cursor: pointer;
+  }
+  .logo-lema > p {
+    margin: 5px;
+    font-style: italic;
+    /* font-size: 1rem; */
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+  .logo-lema > p {
+    display: none;
+  }
+}

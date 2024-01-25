@@ -1,0 +1,99 @@
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+  }
+  /* Estilos para react-paginate */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.pagination li.active a {
+  background: #623cea;
+  color: #fff;
+}
+
+.pagination li.disabled a {
+  pointer-events: none;
+  color: #ccc;
+}
+
+/* Estilos para los botones de "Anterior" y "Siguiente" */
+.pagination li.break a,
+.pagination li.previous a,
+.pagination li.next a {
+  background: #eee;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pagination li.previous a,
+.pagination li.next a {
+  font-weight: bold;
+}
+
+.pagination li.previous a:hover,
+.pagination li.next a:hover {
+  background: #623cea;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Estilos para el botón activo de "Anterior" y "Siguiente" */
+.pagination li.previous.active a,
+.pagination li.next.active a {
+  background: #623cea;
+  color: #fff;
+}
+
+  /* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+    /* Estilos para pantallas grandes aquí */
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        justify-content: center;
+      }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 576px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        /* grid-template-rows: auto auto auto auto auto; */
+        justify-content: center;
+      }
+  }
+  

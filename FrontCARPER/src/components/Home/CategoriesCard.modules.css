@@ -1,0 +1,33 @@
+.cat_card {
+  width: 275px;
+  border: solid;
+  border-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.cat_card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-color: #cec7b6;
+}
+.cat_card img {
+  width: 275px;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+.cat_card h4 {
+  margin-top: 6px;
+}
+.cat_card p {
+  margin: 4px;
+}
+.cat_card a {
+  text-decoration: none;
+  color: #000;
+}

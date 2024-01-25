@@ -1,0 +1,16 @@
+#categories{
+    padding: 15px;
+    /* border-collapse: collapse; */
+    width: 100%;
+}
+#categories td, #products th {
+    border: 1px solid #686767;
+  padding: 8px;
+}
+#categories th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #623cea;
+  color: white;
+}

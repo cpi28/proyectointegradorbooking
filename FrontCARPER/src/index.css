@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebebeb;
+  /* height: 100vh; */
+  color: #000;
+  font-family: "Inknut Antiqua", serif;
+  font-family: "Montserrat", sans-serif;
+}

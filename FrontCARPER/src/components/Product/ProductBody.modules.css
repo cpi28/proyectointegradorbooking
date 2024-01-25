@@ -1,0 +1,31 @@
+.prod_chars{
+    text-align: left;
+    margin-top: 25px;
+}
+.prod_chars img{
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+.prod_chars button{
+    background-color: #623CEA;
+    color: #ebebeb;
+    margin: 25px;
+    
+}
+.prod_chars button:hover{
+    background-color: #ebebeb;
+    color: #623CEA;
+}
+.container{
+    margin-left: 35px;
+}
+.prod-par{
+    padding: 10px;
+}
+.custom-slider-container{
+    max-width: 50%;
+    max-height: 50%;
+  margin: 0 auto;
+}

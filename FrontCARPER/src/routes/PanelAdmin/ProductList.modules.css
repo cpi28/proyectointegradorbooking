@@ -1,0 +1,21 @@
+.vista{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+}
+#products{
+    padding: 15px;
+    /* border-collapse: collapse; */
+    width: 100%;
+}
+#products td, #products th {
+    border: 1px solid #686767;
+  padding: 8px;
+}
+#products th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #623cea;
+  color: white;
+}

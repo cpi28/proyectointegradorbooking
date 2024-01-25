@@ -1,0 +1,11 @@
+.barra-titulo {
+    background-color: rgb(62, 62, 62);
+    text-align: center;
+    
+    color: #EBEBEB;
+    height: 100px;
+    
+}
+.barra-titulo h2 {
+    padding-top: 35px;
+}
