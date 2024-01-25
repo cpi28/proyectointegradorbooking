@@ -28,30 +28,30 @@ Se necesita Node.js y npm instalados. Luego, sigue estos pasos:
 3. Para la aplicación de Front end, abrir la carpeta en Visual Studio Code, instalar las dependencias con npm install y ejecutar el proyecto con npm run dev. La misma se abrirá en http://127.0.0.1:5173/
 
 ## Tecnologías Utilizadas
-** Frontend
+** Frontend **
 
 - Javascript
 - React.js
 - React Router
 - Axios
 
-** Backend
+** Backend **
 
 - Java
 - Spring Boot
 - JPA
 
-** Database
+** Database **
 - H2 SQL
 
-** Testing
+** Testing **
 
 - Selenium WebDriver
 - React Testing Library
 - Jest
 - Postman
 
-** Version control
+** Version control **
 
 - Git
 - Github
